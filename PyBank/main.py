@@ -10,7 +10,7 @@ profits =[]
 date_p = []
 monthly_changes = []
 
-#set initial values for variables
+#Set initial values for variables
 l_count = 0
 
 with open (csvpath) as csvfile:
@@ -26,10 +26,12 @@ with open (csvpath) as csvfile:
 for i in range(1,l_count):
     monthly_changes.append(profits[i] - profits[i-1])
 
-#find index of maximum
+#Find the greatest increase (profits) - using max
+#Find the greates decrease (losses) - using min
 ind_max = monthly_changes.index(max(monthly_changes)) + 1
 ind_min = monthly_changes.index(min(monthly_changes)) + 1
 
+#Print outputs
 print("Financial Analysis")
 print("--------------------------------------------------------------------------------------------------------")
 print("Total number of months included in the dataset is", l_count)
@@ -39,7 +41,7 @@ print("Greatest increase is on", date_p[ind_max], "of value", max(monthly_change
 print("Greatest decrease is on", date_p[ind_min], "of value", min(monthly_changes))
 
 
-#creating a txt file to send the prints
+#Create a txt file to send the output prints
 
 fa = open("financial_analysis.txt","w")
 
