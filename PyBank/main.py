@@ -3,7 +3,7 @@ import csv
 import os
 
 os.chdir("C:/Users/rsdut/Documents/GitHub/Python_challenge/PyBank")
-csvpath = os.path.join("homework03_Python.csv")
+csvpath = os.path.join("PyBank.csv")
 
 #Create lists
 profits =[]
