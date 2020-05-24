@@ -1,6 +1,7 @@
+#Import Modules/ Path
 import csv
 import os
-os.chdir("C:/Users/rsdut/Documents/GitHub/Python_challenge/PyPoll")
+os.chdir("C:/Users/rsdut/Documents/GitHub/Python_project/PyPoll")
 csvpath = os.path.join ("Homework03_Python_PyPoll.csv")
 
 #Set variable initial value and Create variable lists
