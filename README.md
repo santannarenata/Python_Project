@@ -1,4 +1,4 @@
-# Python Project
+# Python project
 
 ### PyBank
 
@@ -18,5 +18,20 @@ Your task is to create a Python script that analyzes the records to calculate ea
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
+### PyPoll
 
+In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
+The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+
+- The total number of votes cast;
+
+- A complete list of candidates who received votes;
+
+- The percentage of votes each candidate won;
+
+- The total number of votes each candidate won;
+
+- The winner of the election based on popular vote.
+
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
